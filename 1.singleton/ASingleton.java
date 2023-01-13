@@ -10,7 +10,7 @@ public class ASingleton {
 		if(instance != null) {
 			throw new RuntimeException("use getInstance() method to create objects");
 		}
-	};
+	}
 	
 	public static ASingleton getInstance() {
 		//lazy loading
